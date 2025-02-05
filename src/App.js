@@ -1,9 +1,11 @@
-import './App.css';
+import './css/base.css';
 import './css/App.css';
+import './css/font.css';
 import React, { useEffect, useState, useCallback } from 'react';
 import { useSelector } from 'react-redux';
 import Categories from './component/Categories';
 import NewsList from './component/NewsList';
+import Header from './component/Header';
 
 function App() {  
   const [category, setCategory] = useState("All");
@@ -18,9 +20,12 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header>Ten news</header>
-        <Categories category={menuName} onSelect={onSelect}/>
-        <NewsList category={category}/>
+        <Header />
+        <div className="main">
+          <Categories category={menuName} onSelect={onSelect}/>
+          <NewsList category={category}/>
+        </div>
+    
       </div>
       
     </div>

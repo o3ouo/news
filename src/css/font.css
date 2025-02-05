@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Chonburi&family=Gloock&family=Great+Vibes&family=Libre+Barcode+39+Text&family=Monofett&display=swap');
+
+.great-vibes-regular {
+    font-family: "Great Vibes", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.libre-barcode-39-text-regular {
+    font-family: "Libre Barcode 39 Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.aguafina-script-regular {
+    font-family: "Aguafina Script", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.monofett-regular {
+    font-family: "Monofett", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.chonburi-regular {
+    font-family: "Chonburi", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gloock-regular {
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1.title {
+    font-family: "Gloock", serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: .5rem;
+}
+
+.lorem {
+    font-family: "Gloock", serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: .1rem;
+}

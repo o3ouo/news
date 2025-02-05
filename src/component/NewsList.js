@@ -23,7 +23,7 @@ function NewsList({ category }) {
 
   console.log('Fetched List:', list);
 
-  return <div className="newsBox"><NewsItem list={list}/></div>
+  return <div className="news-wrap"><NewsItem list={list}/></div>
 }
 
 export default NewsList;
